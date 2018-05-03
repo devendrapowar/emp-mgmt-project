@@ -1,0 +1,39 @@
+<div class="container">
+    <h3>
+        Employee list!
+    </h3>
+    <!-- <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Search</label>
+        <input type="text" class="form-control" placeholder="search" [(ngModel)]="selectedHero.name">
+      </div>
+    </form> -->
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <td>Id</td>
+          <td>Name</td>
+          <td>Phone</td>
+          <td>City</td>
+          <td>Address 1</td>
+          <td>Address 2</td>
+          <td>Postal Code</td>
+          <td>Edit</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let emp of emps">
+          <td>{{emp.id}}</td>
+          <td>{{emp.name}}</td>
+          <td>{{emp.phone}}</td> 
+          <td>{{emp.address.city}}</td>
+          <td>{{emp.address.address_line1}}</td>
+          <td>{{emp.address.address_line2}}</td>
+          <td>{{emp.address.postal_code}}</td>
+          <td>edit</td>
+        </tr>
+      </tbody>
+  </table>
+</div>
+
+
