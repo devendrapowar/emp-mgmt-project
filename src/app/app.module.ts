@@ -7,12 +7,16 @@ import { EmployeeListComponent } from './employee-list/employee-list.component';
 import {EmployeeService} from './employee.service';
 import { AppRoutingModule } from './/app-routing.module';
 import { SearchEmpPipe } from './search-emp.pipe';
+import { UpdateEmpComponent } from './update-emp/update-emp.component';
+import { AddemployeeComponent } from './addemployee/addemployee.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EmployeeListComponent,
-    SearchEmpPipe
+    SearchEmpPipe,
+    UpdateEmpComponent,
+    AddemployeeComponent
   ],
   imports: [
     BrowserModule,

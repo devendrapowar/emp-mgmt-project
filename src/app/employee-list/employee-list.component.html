@@ -7,11 +7,11 @@
         <input type="text" class="form-control" placeholder="search"  [(ngModel)]="searchText">
       </div>
       <div class="col-md-2">
-        <button class="btn btn-primary btn-add">Add</button>
+        <button class="btn btn-primary btn-add" routerLink="/empoloyee/add">Add</button>
       </div>
     </div>
    
-    <table class="table">
+    <table class="table" *ngIf="(emps | searchEmp : searchText).length>0 ">
       <thead>
         <tr>
           <td>Id</td>
@@ -33,10 +33,13 @@
           <td>{{emp.address.address_line1}}</td>
           <td>{{emp.address.address_line2}}</td>
           <td>{{emp.address.postal_code}}</td>
-          <td>edit</td>
+          <td routerLink="/empoloyee/{{emp.id}}">edit</td>
         </tr>
       </tbody>
   </table>
+  <div  *ngIf="(emps | searchEmp : searchText).length===0 ">
+    <p>Your search - <span class="text-bold">{{searchText}}</span> did not found</p>
+  </div>
 </div>
 
 

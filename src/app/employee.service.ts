@@ -11,4 +11,8 @@ export class EmployeeService {
     return  this.http.get<Emp[]>(this.employeesUrl);
   }
 
+  // getEmployee(id: number): Observable<Emp> {
+  //   console.lo
+  //   return  this.http.get<Emp>(this.employeesUrl).find(emp => emp.id === id);
+  // }
 }
