@@ -1,0 +1,145 @@
+[
+    {
+      "id": 1,
+      "name": "Jhon",
+      "phone": 9999999999,
+      "address":
+        {
+        "city": "Pune",
+        "address_line1":"ABC road",
+        "address_line2":"XYZ building",
+        "postal_code":12345
+        }
+    },
+    {
+      "id": 2,
+      "name": "Jon",
+      "phone": 9999999999,
+      "address":
+        {
+        "city": "Mumbai",
+        "address_line1":"ABC road",
+        "address_line2":"XYZ building",
+        "postal_code":12345
+        }
+    },
+    {
+      "id": 3,
+      "name": "Don",
+      "phone": 9999999999,
+      "address":
+        {
+        "city": "Kolhapur",
+        "address_line1":"ABC road",
+        "address_line2":"XYZ building",
+        "postal_code":12345
+        }
+    },
+    {
+      "id": 4,
+      "name": "Dev",
+      "phone": 9999999999,
+      "address":
+        {
+        "city": "Delhi",
+        "address_line1":"ABC road",
+        "address_line2":"XYZ building",
+        "postal_code":12345
+        }
+    },
+    {
+      "id": 5,
+      "name": "Rohit",
+      "phone": 9999999999,
+      "address":
+        {
+        "city": "Nashik",
+        "address_line1":"ABC road",
+        "address_line2":"XYZ building",
+        "postal_code":12345
+        }
+    },
+    {
+      "id": 6,
+      "name": "prad",
+      "phone": 9999999999,
+      "address":
+        {
+        "city": "New",
+        "address_line1":"ABC road",
+        "address_line2":"XYZ building",
+        "postal_code":12345
+        }
+    },{
+      "id": 7,
+      "name": "Jhon",
+      "phone": 9999999999,
+      "address":
+        {
+        "city": "Pune",
+        "address_line1":"ABC road",
+        "address_line2":"XYZ building",
+        "postal_code":12345
+        }
+    },
+    {
+      "id": 8,
+      "name": "Jon",
+      "phone": 9999999999,
+      "address":
+        {
+        "city": "Mumbai",
+        "address_line1":"ABC road",
+        "address_line2":"XYZ building",
+        "postal_code":12345
+        }
+    },
+    {
+      "id": 9,
+      "name": "Don",
+      "phone": 9999999999,
+      "address":
+        {
+        "city": "Kolhapur",
+        "address_line1":"ABC road",
+        "address_line2":"XYZ building",
+        "postal_code":12345
+        }
+    },
+    {
+      "id": 10,
+      "name": "Dev",
+      "phone": 9999999999,
+      "address":
+        {
+        "city": "Delhi",
+        "address_line1":"ABC road",
+        "address_line2":"XYZ building",
+        "postal_code":12345
+        }
+    },
+    {
+      "id":11,
+      "name": "Rohit",
+      "phone": 9999999999,
+      "address":
+        {
+        "city": "Nashik",
+        "address_line1":"ABC road",
+        "address_line2":"XYZ building",
+        "postal_code":12345
+        }
+    },
+    {
+      "id": 12,
+      "name": "prad",
+      "phone": 9999999999,
+      "address":
+        {
+        "city": "New",
+        "address_line1":"ABC road",
+        "address_line2":"XYZ building",
+        "postal_code":12345
+        }
+    }
+  ]
